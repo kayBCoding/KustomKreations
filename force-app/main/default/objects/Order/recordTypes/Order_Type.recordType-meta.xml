@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Type</fullName>
+    <active>true</active>
+    <description>What method the customer is getting their order</description>
+    <label>Order Type</label>
+    <picklistValues>
+        <picklist>Order_Location__c</picklist>
+        <values>
+            <fullName>Kustom Kreations Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kustom Kreations Las Vegas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kustom Kreations Los Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kustom Kreations Miami</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Curbside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Store Pickup</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wrapping_Choice__c</picklist>
+        <values>
+            <fullName>In Store Deluxe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Store Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Store Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

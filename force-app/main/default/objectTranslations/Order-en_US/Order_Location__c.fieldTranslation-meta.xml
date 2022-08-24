@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Order_Location__c</name>
+    <picklistValues>
+        <masterLabel>Kustom Kreations Austin</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kustom Kreations Las Vegas</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kustom Kreations Los Angeles</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kustom Kreations Miami</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

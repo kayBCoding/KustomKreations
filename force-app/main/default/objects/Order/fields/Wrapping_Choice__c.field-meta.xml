@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wrapping_Choice__c</fullName>
+    <externalId>false</externalId>
+    <label>Wrapping Choice</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Curbside Deluxe</fullName>
+                <default>false</default>
+                <label>Curbside Deluxe</label>
+            </value>
+            <value>
+                <fullName>Curbside Executive</fullName>
+                <default>false</default>
+                <label>Curbside Executive</label>
+            </value>
+            <value>
+                <fullName>Curbside Standard</fullName>
+                <default>false</default>
+                <label>Curbside Standard</label>
+            </value>
+            <value>
+                <fullName>In Store Deluxe</fullName>
+                <default>false</default>
+                <label>In Store Deluxe</label>
+            </value>
+            <value>
+                <fullName>In Store Executive</fullName>
+                <default>false</default>
+                <label>In Store Executive</label>
+            </value>
+            <value>
+                <fullName>In Store Standard</fullName>
+                <default>false</default>
+                <label>In Store Standard</label>
+            </value>
+            <value>
+                <fullName>Online Deluxe</fullName>
+                <default>false</default>
+                <label>Online Deluxe</label>
+            </value>
+            <value>
+                <fullName>Online Executive</fullName>
+                <default>false</default>
+                <label>Online Executive</label>
+            </value>
+            <value>
+                <fullName>Online Standard</fullName>
+                <default>false</default>
+                <label>Online Standard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

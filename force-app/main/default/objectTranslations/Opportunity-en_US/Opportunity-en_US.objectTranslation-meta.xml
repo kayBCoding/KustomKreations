@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>New Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>New Order</value>
+    </caseValues>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Order_Now</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+</CustomObjectTranslation>

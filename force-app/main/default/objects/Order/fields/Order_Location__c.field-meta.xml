@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Order Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Kustom Kreations Austin</fullName>
+                <default>false</default>
+                <label>Kustom Kreations Austin</label>
+            </value>
+            <value>
+                <fullName>Kustom Kreations Las Vegas</fullName>
+                <default>false</default>
+                <label>Kustom Kreations Las Vegas</label>
+            </value>
+            <value>
+                <fullName>Kustom Kreations Los Angeles</fullName>
+                <default>false</default>
+                <label>Kustom Kreations Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Kustom Kreations Miami</fullName>
+                <default>false</default>
+                <label>Kustom Kreations Miami</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="1" >
+<![CDATA[<font face="arial" style="font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;"><b style="">Hey,&nbsp;{!User.Manager},&nbsp;</b></span></font><div style="font-family: arial; font-size: 12pt;"><b><br></b></div><div style="font-family: arial; font-size: 12pt;"><b>I was looking into the market of {!Account.Name} and wanted to see if we could add it as the next location. Take a look for me.&nbsp;</b></div><div style="font-family: arial; font-size: 12pt;"><b><br></b></div><div style="font-family: arial; font-size: 12pt;"><b><br></b></div><div style="font-family: arial; font-size: 12pt;"><b>Thanks,&nbsp;</b></div><div style="font-family: arial; font-size: 12pt;"><b><br></b></div><div style=""><b style=""><font face="arial" style="font-family: arial; font-size: 12pt;">{!User.FirstName}&nbsp;</font><font face="arial" style="">{!User.LastName}</font></b></div>]]></td>
+</tr>
+</table>

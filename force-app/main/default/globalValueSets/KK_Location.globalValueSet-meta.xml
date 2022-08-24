@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Kustom Kreations Miami</fullName>
+        <default>false</default>
+        <label>Kustom Kreations Miami</label>
+    </customValue>
+    <customValue>
+        <fullName>Kustom Kreations Austin</fullName>
+        <default>false</default>
+        <label>Kustom Kreations Austin</label>
+    </customValue>
+    <customValue>
+        <fullName>Kustom Kreations LA</fullName>
+        <default>false</default>
+        <label>Kustom Kreations LA</label>
+    </customValue>
+    <customValue>
+        <fullName>Kustom Kreations Las Vegas</fullName>
+        <default>false</default>
+        <label>Kustom Kreations Las Vegas</label>
+    </customValue>
+    <description>Location for pick-up or pre-order</description>
+    <masterLabel>KK Location</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

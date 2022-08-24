@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Kustom Kreations Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Kustom Kreations Locations</value>
+    </caseValues>
+    <layouts>
+        <layout>Account (Support) Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Location Layouts</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Senior Sales Associate</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Store Associate</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Store Manager</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Make_An_Order</name>
+    </quickActions>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>New_Location</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Order_Online</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Actual_Location</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

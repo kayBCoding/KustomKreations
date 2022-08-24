@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Location</fullName>
+    <active>true</active>
+    <description>Make Sure Location starts with Kustom Kreations and that the first letter in Location Names are capitalized</description>
+    <errorConditionFormula>AND(
+ 
+
+    NOT(ISBLANK(  Name )),
+ 
+
+    OR(
+ 
+
+        ISNEW(),
+ 
+
+        ISCHANGED(  Name )
+ 
+
+    ),
+ 
+
+    LEFT(  Name , 1) &lt;&gt; UPPER(LEFT(  Name , 1))
+
+
+    )
+       &amp;&amp;
+       
+
+NOT(BEGINS(  Name , &quot;Kustom Kreations&quot;))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>This Location must start with Kustom Kreations, please edit and re-submit record</errorMessage>
+</ValidationRule>

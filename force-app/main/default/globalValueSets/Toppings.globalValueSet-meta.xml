@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Brownie Batter</fullName>
+        <default>false</default>
+        <label>Brownie Batter</label>
+    </customValue>
+    <customValue>
+        <fullName>Candy Pieces</fullName>
+        <default>false</default>
+        <label>Candy Pieces</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate</fullName>
+        <default>false</default>
+        <label>Chocolate</label>
+    </customValue>
+    <customValue>
+        <fullName>Coconut Drizzle</fullName>
+        <default>false</default>
+        <label>Coconut Drizzle</label>
+    </customValue>
+    <customValue>
+        <fullName>Cookie Crumbles</fullName>
+        <default>false</default>
+        <label>Cookie Crumbles</label>
+    </customValue>
+    <customValue>
+        <fullName>Cookies Pieces</fullName>
+        <default>false</default>
+        <label>Cookies Pieces</label>
+    </customValue>
+    <customValue>
+        <fullName>Fudge</fullName>
+        <default>false</default>
+        <label>Fudge</label>
+    </customValue>
+    <customValue>
+        <fullName>Gummy Bears</fullName>
+        <default>false</default>
+        <label>Gummy Bears</label>
+    </customValue>
+    <customValue>
+        <fullName>Marshmallow Fluff</fullName>
+        <default>false</default>
+        <label>Marshmallow Fluff</label>
+    </customValue>
+    <customValue>
+        <fullName>Nuts</fullName>
+        <default>false</default>
+        <label>Nuts</label>
+    </customValue>
+    <customValue>
+        <fullName>Pretzels</fullName>
+        <default>false</default>
+        <label>Pretzels</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprinkles</fullName>
+        <default>false</default>
+        <label>Sprinkles</label>
+    </customValue>
+    <customValue>
+        <fullName>Strawberry Drizzle</fullName>
+        <default>false</default>
+        <label>Strawberry Drizzle</label>
+    </customValue>
+    <customValue>
+        <fullName>White Chocolate</fullName>
+        <default>false</default>
+        <label>White Chocolate</label>
+    </customValue>
+    <description>Toppings for Kustom Kreations</description>
+    <masterLabel>Toppings</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

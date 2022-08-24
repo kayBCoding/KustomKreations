@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Banana</fullName>
+        <default>false</default>
+        <label>Banana</label>
+    </customValue>
+    <customValue>
+        <fullName>Birthday Cake</fullName>
+        <default>false</default>
+        <label>Birthday Cake</label>
+    </customValue>
+    <customValue>
+        <fullName>Brownie</fullName>
+        <default>false</default>
+        <label>Brownie</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate</fullName>
+        <default>false</default>
+        <label>Chocolate</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate n Vanilla</fullName>
+        <default>false</default>
+        <label>Chocolate n Vanilla</label>
+    </customValue>
+    <customValue>
+        <fullName>Coconut</fullName>
+        <default>false</default>
+        <label>Coconut</label>
+    </customValue>
+    <customValue>
+        <fullName>Cookies n Cream</fullName>
+        <default>false</default>
+        <label>Cookies n Cream</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotton Candy</fullName>
+        <default>false</default>
+        <label>Cotton Candy</label>
+    </customValue>
+    <customValue>
+        <fullName>Fudge</fullName>
+        <default>false</default>
+        <label>Fudge</label>
+    </customValue>
+    <customValue>
+        <fullName>Mango</fullName>
+        <default>false</default>
+        <label>Mango</label>
+    </customValue>
+    <customValue>
+        <fullName>Mint Chocolate Chip</fullName>
+        <default>false</default>
+        <label>Mint Chocolate Chip</label>
+    </customValue>
+    <customValue>
+        <fullName>Peanut Butter</fullName>
+        <default>false</default>
+        <label>Peanut Butter</label>
+    </customValue>
+    <customValue>
+        <fullName>Pineapple</fullName>
+        <default>false</default>
+        <label>Pineapple</label>
+    </customValue>
+    <customValue>
+        <fullName>Vanilla</fullName>
+        <default>false</default>
+        <label>Vanilla</label>
+    </customValue>
+    <description>Ice cream flavors for Kustom Kreations</description>
+    <masterLabel>Flavors</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

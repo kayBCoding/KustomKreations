@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Location_Cannot_Be_Approved</fullName>
+        <ccEmails>karissa.nyawera@gmail.com</ccEmails>
+        <description>Your New Location Has Been Denied</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>karissa.nyawera@mindful-wolf-f0ll2s.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sadamsknpurple@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Your_Location_Has_Been_Denied</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Location_Approved</fullName>
+        <ccEmails>karissa.nyawera@gmail.com</ccEmails>
+        <description>New Location Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>karissa.nyawera@mindful-wolf-f0ll2s.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sadamsknpurple@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Your_Location_Has_Been_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Your_New_Location_Has_Been_Approved</fullName>
+        <ccEmails>karissa.nyawera@gmail.com</ccEmails>
+        <description>Your New Location Has Been Approved!!</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>sadamsknpurple@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Your_Location_Has_Been_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Your_New_Location_Has_Been_Denied</fullName>
+        <ccEmails>karissa.nyawera@gmail.com</ccEmails>
+        <description>Your New Location Has Been Denied</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>karissa.nyawera@mindful-wolf-f0ll2s.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sadamsknpurple@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Your_Location_Has_Been_Denied</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Location_Cannot_Be_Approved</fullName>
+        <field>Active__c</field>
+        <literalValue>No</literalValue>
+        <name>Location Cannot Be Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Location_Is_Approved</fullName>
+        <field>Active__c</field>
+        <literalValue>Yes</literalValue>
+        <name>Location Is Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>New_Kustom_Kreations_Location</fullName>
+        <field>Active__c</field>
+        <literalValue>Yes</literalValue>
+        <name>New Kustom Kreations Location</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>New_Location_Approval</fullName>
+        <field>Active__c</field>
+        <literalValue>Pending</literalValue>
+        <name>New Location Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Your_Location_Has_Been_Approved</fullName>
+        <field>Active__c</field>
+        <literalValue>Yes</literalValue>
+        <name>Your Location Has Been Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Your_Location_Has_Been_Denied</fullName>
+        <field>Active__c</field>
+        <literalValue>No</literalValue>
+        <name>Your Location Has Been Denied</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

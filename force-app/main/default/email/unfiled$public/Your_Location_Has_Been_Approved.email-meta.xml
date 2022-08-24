@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Kustom_Kreations</letterhead>
+    <name>Your Location Has Been Approved</name>
+    <style>freeForm</style>
+    <subject>Your New Kustom Kreations Location Request Has Been Approved</subject>
+    <textOnly>Hi {!User.FirstName},
+
+Your request for a new {!Account.Name} has been approved. You may now make final adjustments on the location for service use.
+
+
+Thanks,
+
+
+Karissa Nyawera</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Kustom_Kreations</letterhead>
+    <name>Sweeter Than Most</name>
+    <style>freeForm</style>
+    <subject>You Just Hit The Jackpot My Friend.......</subject>
+    <textOnly>Howdy {!Order.Customer_Name__c},
+
+You just chose to indulge in our sweetest treats and your order #: {!Order.OrderNumber} has been {!Order.Status}. You wont regret the journey you are about to embark on, we&apos;ll have it ready for you on {!Order.EndDate}.
+
+
+Enjoy,
+
+
+{!Order.Order_Location__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

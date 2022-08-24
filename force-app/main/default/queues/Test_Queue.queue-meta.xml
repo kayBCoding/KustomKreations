@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>karissa.nyawera@gmail.com</email>
+    <name>Test Queue</name>
+    <queueMembers>
+        <users>
+            <user>karissa.nyawera@mindful-wolf-f0ll2s.com</user>
+            <user>lsimpson@kkreations.com</user>
+            <user>sadamsknpurple@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Customer</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Location</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Order</sobjectType>
+    </queueSobject>
+</Queue>

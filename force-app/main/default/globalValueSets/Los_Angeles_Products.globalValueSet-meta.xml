@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Float</fullName>
+        <default>false</default>
+        <label>Float</label>
+    </customValue>
+    <customValue>
+        <fullName>Ice Cream Cake</fullName>
+        <default>false</default>
+        <label>Ice Cream Cake</label>
+    </customValue>
+    <customValue>
+        <fullName>Ice Cream Cone</fullName>
+        <default>false</default>
+        <label>Ice Cream Cone</label>
+    </customValue>
+    <customValue>
+        <fullName>Malt</fullName>
+        <default>false</default>
+        <label>Malt</label>
+    </customValue>
+    <customValue>
+        <fullName>Milkshake</fullName>
+        <default>false</default>
+        <label>Milkshake</label>
+    </customValue>
+    <customValue>
+        <fullName>Sundae</fullName>
+        <default>false</default>
+        <label>Sundae</label>
+    </customValue>
+    <masterLabel>Los Angeles Products</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

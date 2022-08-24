@@ -1,0 +1,21 @@
+<apex:page standardController="Order" lightningStylesheets="true">
+    <apex:form >
+        <apex:pageBlock mode="detail" title="{!if($CurrentPage.parameters.id == null, 
+                                       'Create Order', 'Edit Order')}">
+                <apex:pageBlockSection Title="Pre-Order">
+                <apex:inputField value="{!order.Customer_Name__c}"/>
+                <apex:inputField value="{!order.EffectiveDate}"/>
+                <apex:inputField value="{!order.EndDate}"/>
+                <apex:inputField value="{!order.Order_Location__c}"/>
+                <apex:inputField value="{!order.AccountId}"/>
+                <apex:inputField value="{!order.Wrapping_Choice__c}"/>
+                <apex:inputField value="{!order.Status}"/>
+                <apex:inputField value="{!order.Orders__c}"/>
+                </apex:pageBlockSection>
+              <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!Save}" styleClass="slds-vf-button_brand"/>
+                <apex:commandButton value="Cancel" action="{!Cancel}" styleClass="slds-vf-button_brand" />                                        
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

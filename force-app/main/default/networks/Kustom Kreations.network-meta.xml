@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles>
+        <customerUserRole>Kustom Kreations Customer</customerUserRole>
+        <employeeUserRole>Kustom Kreations Employee</employeeUserRole>
+        <partnerUserRole>Kustom Kreations Partner</partnerUserRole>
+    </communityRoles>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailSenderAddress>karissa.nyawera@gmail.com</emailSenderAddress>
+    <emailSenderName>Kustom Kreations</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableExperienceBundleBasedSnaOverrideEnabled>false</enableExperienceBundleBasedSnaOverrideEnabled>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableMemberVisibility>false</enableMemberVisibility>
+    <enableNicknameDisplay>true</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>false</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <networkMemberGroups>
+        <permissionSet>Multi_Factor_Authentication</permissionSet>
+        <permissionSet>Switcher</permissionSet>
+        <permissionSet>Senior_Store_Associate_Access</permissionSet>
+        <permissionSet>Pre_Order_Products_Access</permissionSet>
+        <permissionSet>Store_Manager</permissionSet>
+        <profile>Admin</profile>
+        <profile>Store Manager</profile>
+        <profile>Store Associate</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>VisualForce</homePageOverrideSetting>
+        <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Standard</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Kustom_Kreations1</picassoSite>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>Kustom_Kreations</site>
+    <status>Live</status>
+    <tabs>
+        <customTab>trlhdtips__Welcome</customTab>
+        <defaultTab>01r8c000001VwWa</defaultTab>
+        <standardTab>home</standardTab>
+    </tabs>
+    <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
+</Network>

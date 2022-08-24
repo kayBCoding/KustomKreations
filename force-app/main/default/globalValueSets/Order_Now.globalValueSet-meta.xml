@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Placed</fullName>
+        <default>true</default>
+        <label>Placed</label>
+    </customValue>
+    <customValue>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+        <label>Accepted</label>
+    </customValue>
+    <customValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Finishing Touches</fullName>
+        <default>false</default>
+        <label>Finishing Touches</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready For A Sweet  Adventure</fullName>
+        <default>false</default>
+        <label>Ready For A Sweet  Adventure</label>
+    </customValue>
+    <masterLabel>Order Now</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

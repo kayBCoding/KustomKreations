@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Kustom_Kreations</letterhead>
+    <name>New Location Approval</name>
+    <style>freeForm</style>
+    <subject>There Has Been A Request To Add A New Location</subject>
+    <textOnly>Hey, {!User.Manager},
+
+I was looking into the market of {!Account.Name} and wanted to see if we could add it as the next location.
+
+
+Thanks,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
